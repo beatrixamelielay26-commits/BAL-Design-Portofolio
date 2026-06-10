@@ -881,6 +881,31 @@ h1.typing-text {
     box-shadow: 0 0 15px var(--main-color);
 }
 
+.map-container {
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(205, 83, 134, 0.4);
+    border: 2px solid var(--main-color);
+}
+
+.location h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--secondary-color);
+}
+.location p {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.location span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
 .footer {
     background-color: var(--second-background-color);
     padding: 50px 0;
