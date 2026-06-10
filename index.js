@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
@@ -52,14 +51,3 @@ setInterval(() => {
     player.src = videos[index];
     document.getElementById("gifPreview").load();
 }, 2000);
-=======
-const videos = ["images/angry.mp4", "images/sleepy.mp4", "images/smile.mp4"];
-let index = 0;
-const player = document.getElementById("gifPreview").querySelector("source");
-
-setInterval(() => {
-    index = (index + 1) % videos.length;
-    player.src = videos[index];
-    document.getElementById("gifPreview").load();
-}, 2000);
->>>>>>> ce30136960ca9e9c81f2cfdefdc0c439c8d8a700
